@@ -15,7 +15,7 @@ jobs:
     # -name: Check out code
     #   uses: actions/checkout@v2 
     -name: Build
-      run: |
+      run: 
         gcc -c project.c
         ./project.c
     
